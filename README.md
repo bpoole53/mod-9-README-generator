@@ -1,13 +1,13 @@
 # Table of Contents
-    [asd](#asd)
-    [Description](#Description)
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [Contribution Guidelines](#Contribution-Guidelines)
-    [License](#License)
-    [Test Instructions](#Test-Instructions)
-    [Github Username](#Github-Username)
-    [Email Address](#Email-Address)
+  1. [asd](#asd)
+  2. [Description](#Description)
+  3. [Installation](#Installation)
+  4. [Usage](#Usage)
+  5. [Contribution Guidelines](#Contribution-Guidelines)
+  6. [License](#License)
+  7. [Test Instructions](#Test-Instructions)
+  8. [Github Page](#Github-Username)
+  9. [Contact Info](#Email-Address)
   # asd
     
   ## Description
