@@ -54,14 +54,14 @@ inquirer.prompt([
   .then((data) => {
     fs.writeFile('../../mod-9-README-generator/README.md', `# Table of Contents
   1. [${data.title}](#${data.title})
-  2. [Description](#Description)
-  3. [Installation](#Installation)
-  4. [Usage](#Usage)
-  5. [Contribution Guidelines](#Contribution-Guidelines)
-  6. [License](#License)
-  7. [Test Instructions](#Test-Instructions)
-  8. [Github Page](#Github-Username)
-  9. [Contact Info](#Email-Address)
+  2. [Description](#description)
+  3. [Installation](#installation)
+  4. [Usage](#usage)
+  5. [Contribution Guidelines](#contribution-guidelines)
+  6. [License](#license)
+  7. [Test Instructions](#test-instructions)
+  8. [Github Page](#github-link)
+  9. [Contact Info](#email-address)
   # ${data.title}
     
   ## Description
@@ -82,7 +82,7 @@ inquirer.prompt([
   ## Test Instructions
   ${data.test}
     
-  ## Github Username
+  ## Github Link
   https://github.com/${data.github}
     
   ## Email Address
