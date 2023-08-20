@@ -53,15 +53,14 @@ inquirer.prompt([
   ])
   .then((data) => {
     fs.writeFile('../../mod-9-README-generator/README.md', `# Table of Contents
-  1. [${data.title}](#${data.title})
-  2. [Description](#description)
-  3. [Installation](#installation)
-  4. [Usage](#usage)
-  5. [Contribution Guidelines](#contribution-guidelines)
-  6. [License](#license)
-  7. [Test Instructions](#test-instructions)
-  8. [Github Page](#github-link)
-  9. [Contact Info](#email-address)
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Contribution Guidelines](#contribution-guidelines)
+  5. [License](#license)
+  6. [Test Instructions](#test-instructions)
+  7. [Github Page](#github-link)
+  8. [Contact Info](#email-address)
   # ${data.title}
     
   ## Description
@@ -91,3 +90,4 @@ inquirer.prompt([
       err ? console.log(err) : console.log('Successfully created README file!')
     );
   });
+
